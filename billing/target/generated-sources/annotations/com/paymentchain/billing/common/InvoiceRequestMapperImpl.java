@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-10-20T12:52:21+0200",
-    comments = "version: 1.3.1.Final, compiler: javac, environment: Java 11.0.2 (Oracle Corporation)"
+    date = "2024-08-04T12:08:18-0500",
+    comments = "version: 1.3.1.Final, compiler: Eclipse JDT (IDE) 3.39.0.v20240725-1906, environment: Java 17.0.11 (Eclipse Adoptium)"
 )
 @Component
 public class InvoiceRequestMapperImpl implements InvoiceRequestMapper {
@@ -24,9 +24,9 @@ public class InvoiceRequestMapperImpl implements InvoiceRequestMapper {
         Invoice invoice = new Invoice();
 
         invoice.setCustomerId( source.getCustomer() );
-        invoice.setNumber( source.getNumber() );
-        invoice.setDetail( source.getDetail() );
         invoice.setAmount( source.getAmount() );
+        invoice.setDetail( source.getDetail() );
+        invoice.setNumber( source.getNumber() );
 
         return invoice;
     }
