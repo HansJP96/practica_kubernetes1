@@ -1,7 +1,11 @@
 # practica_kubernetes1
 hola
 
-mirr pr activos
+TOCA ACTIVAR GITHUB SERVER
+TOCA ACTIVAR SONARQUBE SERVER
+PLUGIN DOCKER Y CONFIGURAR DOCKER CLOUD
+
+mirar pr activos
 +refs/pull/*/head:refs/remotes/origin/pr/*
 
 current_status = $.action
@@ -14,7 +18,7 @@ case "$current_status" in
         echo "Build"
         # Ejecuta los comandos necesarios aquí, por ejemplo:
         cd billing
-        mvn clean test //tambien puede ser compile
+        mvn clean test //tambien puede ser compile 
         ;;
     *)
         echo "Condition not met: Skipping this step."
