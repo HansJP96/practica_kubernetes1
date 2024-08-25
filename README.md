@@ -1,5 +1,4 @@
 # practica_kubernetes1
-hola
 
 TOCA ACTIVAR GITHUB SERVER
 TOCA ACTIVAR SONARQUBE SERVER
@@ -32,3 +31,5 @@ sonar.projectKey=sonarqube
 sonar.sources=billing/src/main/java
 
 sonar.java.binaries=billing/target/classes
+
+termina
