@@ -6,6 +6,7 @@ TOCA ACTIVAR SONARQUBE SERVER
 PLUGIN DOCKER Y CONFIGURAR DOCKER CLOUD
 
 mirar pr activos
+
 +refs/pull/*/head:refs/remotes/origin/pr/*
 
 current_status = $.action
@@ -27,5 +28,7 @@ case "$current_status" in
 esac
 
 sonar.projectKey=sonarqube
+
 sonar.sources=billing/src/main/java
+
 sonar.java.binaries=billing/target/classes
