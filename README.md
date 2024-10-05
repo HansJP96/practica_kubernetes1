@@ -29,3 +29,7 @@ esac
 sonar.projectKey=sonarqube
 sonar.sources=billing/src/main/java
 sonar.java.binaries=billing/target/classes
+
+
+
+padaosdoasd
